@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.faketuna",
+    "module": "kerfb",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kerfb-0.0.1.jar",
+          "url": "kerfb-0.0.1.jar",
+          "size": 13760,
+          "sha512": "a9fe1c0f4b40832ca0659fa5ba13fa4d7b92022800a077ccfa6511cdab42949badbfeef4b7b2f5db25fb395b1edbe0eef0f13f6c86a90174dc6a15a8fee42d24",
+          "sha256": "c3d7e536ea2ebe953c832ccc46fcbd96dc4eea8193e3f0fdd1de0eeac3cf2ac3",
+          "sha1": "58ceb8b68eba1dde441f36886f74fed6df8a8461",
+          "md5": "64bd7a6a2c0ebb075b414bc6e8b5aa78"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kerfb-0.0.1.jar",
+          "url": "kerfb-0.0.1.jar",
+          "size": 13760,
+          "sha512": "a9fe1c0f4b40832ca0659fa5ba13fa4d7b92022800a077ccfa6511cdab42949badbfeef4b7b2f5db25fb395b1edbe0eef0f13f6c86a90174dc6a15a8fee42d24",
+          "sha256": "c3d7e536ea2ebe953c832ccc46fcbd96dc4eea8193e3f0fdd1de0eeac3cf2ac3",
+          "sha1": "58ceb8b68eba1dde441f36886f74fed6df8a8461",
+          "md5": "64bd7a6a2c0ebb075b414bc6e8b5aa78"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kerfb-0.0.1-universal.jar",
+          "url": "kerfb-0.0.1-universal.jar",
+          "size": 4910500,
+          "sha512": "d86a52be1e23a6307f2b84f280ce657c91c0a7e5caae804b1dbb56fa3bf00d2d3d65a0263f628ffc8c526b9e5cb30c96e8dff4983b14ec41d5257b54db128a93",
+          "sha256": "e95f264fb0b7c48d7d4b4b07968dafa4397a14b65a999a3019498adbd19f2efc",
+          "sha1": "ab049db6f1c0c6c1601aa3d82a15cdb42294b722",
+          "md5": "a7e9deef4b5d128b5839e675766fa256"
+        }
+      ]
+    }
+  ]
+}
