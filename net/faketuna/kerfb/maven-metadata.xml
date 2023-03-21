@@ -3,13 +3,14 @@
   <groupId>net.faketuna</groupId>
   <artifactId>kerfb</artifactId>
   <versioning>
-    <latest>0.0.2a</latest>
-    <release>0.0.2a</release>
+    <latest>0.0.2b</latest>
+    <release>0.0.2b</release>
     <versions>
       <version>0.0.1</version>
       <version>0.0.2</version>
       <version>0.0.2a</version>
+      <version>0.0.2b</version>
     </versions>
-    <lastUpdated>20230321064557</lastUpdated>
+    <lastUpdated>20230321070606</lastUpdated>
   </versioning>
 </metadata>
