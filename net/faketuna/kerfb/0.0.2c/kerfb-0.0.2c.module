@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.faketuna",
+    "module": "kerfb",
+    "version": "0.0.2c",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kerfb-0.0.2c.jar",
+          "url": "kerfb-0.0.2c.jar",
+          "size": 24677,
+          "sha512": "dda8b264152180ccb52d9892a3c3a977bdde7e400083a9c26469876607d60456e4e0325bcb7e879fdbf7be26e02497a3ff1fef17ceba1fb921a64e84483cce34",
+          "sha256": "b47f78095a319f8053443ee5d35cf44f2272911ce2ff5c8d20e30bceab49ac23",
+          "sha1": "405a130a1f5e95616220410b7ff783755d329b15",
+          "md5": "ccb45fd8cad66315fbe967d5e259861a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kerfb-0.0.2c.jar",
+          "url": "kerfb-0.0.2c.jar",
+          "size": 24677,
+          "sha512": "dda8b264152180ccb52d9892a3c3a977bdde7e400083a9c26469876607d60456e4e0325bcb7e879fdbf7be26e02497a3ff1fef17ceba1fb921a64e84483cce34",
+          "sha256": "b47f78095a319f8053443ee5d35cf44f2272911ce2ff5c8d20e30bceab49ac23",
+          "sha1": "405a130a1f5e95616220410b7ff783755d329b15",
+          "md5": "ccb45fd8cad66315fbe967d5e259861a"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kerfb-0.0.2c-universal.jar",
+          "url": "kerfb-0.0.2c-universal.jar",
+          "size": 4921417,
+          "sha512": "10fb0c2f7f3fecb08f7453bb7db6926dfde1dc7b2467d20cdae5ef900972ceeaa629d30b387d7aed3f9c991cab0321385cf10e458359501ead28bf928cf6dbb6",
+          "sha256": "39647c389d6dbc4bd5382896c7230383e4cd632e54d6217163e155896a68d2f0",
+          "sha1": "0459301dc2fb846462a2908192d3f8e6030871f8",
+          "md5": "05240df60180e88f0755666922f25991"
+        }
+      ]
+    }
+  ]
+}
