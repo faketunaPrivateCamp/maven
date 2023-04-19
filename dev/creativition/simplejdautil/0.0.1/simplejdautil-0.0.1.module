@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.creativition",
+    "module": "simplejdautil",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-beta.8"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simplejdautil-0.0.1.jar",
+          "url": "simplejdautil-0.0.1.jar",
+          "size": 14505,
+          "sha512": "42b7708df367bd5d54836190ec45952e3c4d58aa4bc856c389372b6b9e90332ddfdaa1d088752a744f317cd14cd32de596554de99142f837f2a35521f3dfe328",
+          "sha256": "c4be4520af48539a8dc704e0d5383fa53618e6d08e34d2065f288e4ba46765c3",
+          "sha1": "ca912c025c2e8666edcf61498c8d4bf29c175a07",
+          "md5": "4b4be9455daa620424147e0598d9a947"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-beta.8"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "simplejdautil-0.0.1.jar",
+          "url": "simplejdautil-0.0.1.jar",
+          "size": 14505,
+          "sha512": "42b7708df367bd5d54836190ec45952e3c4d58aa4bc856c389372b6b9e90332ddfdaa1d088752a744f317cd14cd32de596554de99142f837f2a35521f3dfe328",
+          "sha256": "c4be4520af48539a8dc704e0d5383fa53618e6d08e34d2065f288e4ba46765c3",
+          "sha1": "ca912c025c2e8666edcf61498c8d4bf29c175a07",
+          "md5": "4b4be9455daa620424147e0598d9a947"
+        }
+      ]
+    }
+  ]
+}
