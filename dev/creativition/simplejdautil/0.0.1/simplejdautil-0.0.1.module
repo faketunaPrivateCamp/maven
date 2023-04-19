@@ -105,6 +105,46 @@
           "md5": "4b4be9455daa620424147e0598d9a947"
         }
       ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "simplejdautil-0.0.1-javadoc.jar",
+          "url": "simplejdautil-0.0.1-javadoc.jar",
+          "size": 261,
+          "sha512": "f1a8db72678698b0615818ae3f189649637b2b5a11af638f96572bf46aebd6fef3ea65e476b207d49fd8317124e55a7e4f932953b40f3eb1ee180cb3ed404276",
+          "sha256": "6762d7cc51cc5c2198075dc41beda3da7ca54f26d5e71eb949279853a6075916",
+          "sha1": "329cc512f3fafb4bfa393c66411608be000529bf",
+          "md5": "57db19cef48a47d7314aa47b2d60fcee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "simplejdautil-0.0.1-sources.jar",
+          "url": "simplejdautil-0.0.1-sources.jar",
+          "size": 4390,
+          "sha512": "68175460f46d1f988e2b41f6c23215183ac8b487c57e6788f2d6520def66697dc30492c5711b2c51ff44562dedf605ac1c2acfc15f77dcc8d30c5bb95a7dbfcc",
+          "sha256": "bd70375ca4bd86a8cd5e2cb122be4f638972c8a68759b098ab912fabad8d7c03",
+          "sha1": "08848feeed3dc67f1349d9569e37b5368f93b0ae",
+          "md5": "58dc733e6fd9779d28b8569c8405c2b9"
+        }
+      ]
     }
   ]
 }
